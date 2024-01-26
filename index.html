@@ -6,19 +6,45 @@
   <title>Jennifer Rahman</title>
 
   <style>
+
     body {
       padding: 40px 0px;
       background-color: #F9F0EF;
+      display: flex;
+      justify-content: center;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
     }
 
     .name {
+      display: flex;
+      justify-content: center;
       color: #5BD0D4;
+      font-size: 50px;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
     }
 
     .banner-img {
-      width: 155px;
-      height: 155px;
+      width: 200px;
+      height: 200px;
       object-fit: cover;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      margin-top: 0px;
     }
 
     .icons a {
@@ -39,11 +65,22 @@
 
     .links {
       background-color: #EDACA2;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border-radius: 15px;
+    }
+
+    .links :hover {
+      color: #F9F0EF;
     }
 
     .links a{
       text-decoration: none;
       color: #0B090B;
+      text-align: center;
+      font-size: 20px;
+      flex-grow: 1;
     }
   </style>
 </head>
