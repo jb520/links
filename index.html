@@ -28,6 +28,7 @@
     }
 
     .name {
+      height: 60px;
       display: flex;
       justify-content: center;
       color: #5BD0D4;
@@ -48,14 +49,20 @@
     }
 
     .icons {
+      height: 50px;
       display: flex;
-      justify-content: center;
-      gap: 100px;
-      margin-top: 0px;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-left: 10px;
     }
 
     .icons a {
       text-decoration: none;
+      display: flex;
+      justify-content: center; 
+      height: 24px;
+      margin: 2px;
+      padding: 0px;
     }
 
     .icons img {
@@ -96,10 +103,11 @@
 <body>
   <div class="items">
     <div class="banner"><img src="./thumbnails/pfp.png" alt="simplistic drawing of a humanoid purple cat playing a claw machine game" class="banner-img"></div>
-    <div class="name">Jennifer Rahman</div>
-    <div class="icons">
-      <a target="_blank" href="https://github.com/jb520"><img src="./thumbnails/github-mark.svg" alt="github"></a>
-      <a target="_blank" href="https://www.linkedin.com/in/jennifer-rahman-322a75201/"><img src="./thumbnails/LinkedIn_icon.svg" alt="linkedin"></a>
+    <div class="name">Jennifer Rahman
+      <div class="icons">
+        <a target="_blank" href="https://github.com/jb520"><img src="./thumbnails/github-mark.svg" alt="github"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/jennifer-rahman-322a75201/"><img src="./thumbnails/LinkedIn_icon.svg" alt="linkedin"></a>
+      </div>
     </div>
     <!--Links to my accounts-->
     <div class="links">
